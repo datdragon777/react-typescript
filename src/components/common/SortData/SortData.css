@@ -1,0 +1,29 @@
+.sort__wrapper {
+  display: flex;
+  color: var(--cl-sort);
+  cursor: pointer;
+}
+
+.sort__name {
+  font-weight: var(--fw-sm);
+  font-size: var(--fs-x-sm);
+  margin-right: 6px;
+}
+
+.sort__icon {
+  margin-top: 4px;
+  display: flex;
+  width: 6px;
+  height: 6px;
+  transition: transform 0.5s;
+}
+
+.icon__sort {
+  width: 100%;
+  height: auto;
+}
+
+.sort__wrapper.sorted .sort__icon,
+.sort__wrapper.sorted .icon__sort {
+  transform: rotate(90deg);
+}

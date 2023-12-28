@@ -1,0 +1,47 @@
+.customer__item {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 17px 20px;
+  background: var(--cl-primary);
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+
+.customer__align {
+  display: flex;
+  align-items: center;
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-sm);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.customer__text {
+  text-wrap: nowrap;
+  text-overflow: ellipsis;
+}
+
+.customer__last {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customer__option {
+  position: relative;
+  width: fit-content;
+  padding: 12px 10px;
+  display: flex;
+  justify-self: flex-end;
+  cursor: pointer;
+}
+
+.customer__context-menu {
+  position: absolute;
+  z-index: 99;
+  right: -42px;
+  top: 28px;
+}

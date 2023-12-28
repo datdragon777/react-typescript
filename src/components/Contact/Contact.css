@@ -1,0 +1,5 @@
+.contact__title {
+  color: var(--cl-secondary);
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-md);
+}

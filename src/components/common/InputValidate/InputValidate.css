@@ -1,0 +1,41 @@
+.form__input {
+  display: flex;
+  margin-bottom: 14px;
+}
+
+.form__input--field {
+  flex-direction: column;
+}
+
+.form__input--choose {
+  flex-direction: unset;
+}
+
+.input__choose {
+  margin-right: 5px;
+}
+
+.input__field {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid var(--cl-gray);
+}
+
+.input__label {
+  display: block;
+  font-size: var(--fs-sm);
+  color: var(--cl-secondary);
+  font-weight: var(--fw-lg);
+  margin-bottom: 10px;
+}
+
+.input__option {
+  font-size: var(--fs-md);
+}
+
+.error__message {
+  font-size: var(--fs-xx-sm);
+  color: var(--cl-error);
+  margin-top: 5px;
+}

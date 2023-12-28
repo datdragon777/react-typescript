@@ -1,0 +1,49 @@
+.form__background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(94, 110, 141, 0.9);
+}
+
+.form__validation {
+  width: 800px;
+  background-color: var(--cl-primary);
+  padding: 40px 60px;
+  border: 1px solid var(--cl-primary);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__title {
+  color: var(--cl-secondary);
+  font-size: var(--fs-xxx-lg);
+  font-weight: var(--fw-lg);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form__row {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+}
+
+.input__row {
+  display: flex;
+  gap: 40px;
+}
+
+.form__button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}

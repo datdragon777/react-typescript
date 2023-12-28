@@ -1,0 +1,62 @@
+.btn {
+  font-family: 'DM Sans', sans-serif;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  width: var(--btn-width, auto);
+  height: var(--btn-height, auto);
+}
+
+.btn[disabled] {
+  cursor: no-drop;
+}
+
+.btn__female {
+  color: var(--cl-primary);
+  background-color: var(--cl-female-txt);
+  border: 1px solid var(--cl-female-txt);
+}
+
+.btn__female:hover {
+  color: var(--cl-female-txt);
+  background-color: #fff7fb;
+}
+
+.btn__female:hover .icon__bonus {
+  filter: invert(61%) sepia(66%) saturate(2041%) hue-rotate(291deg)
+    brightness(100%) contrast(102%);
+}
+
+.btn__male {
+  color: var(--cl-primary);
+  background-color: var(--cl-dark-blue);
+  border: 1px solid var(--cl-dark-blue);
+}
+
+.btn__male:hover {
+  color: var(--cl-dark-blue);
+  background-color: #f5f5fd;
+}
+
+.btn__male:hover .icon__bonus {
+  filter: invert(20%) sepia(90%) saturate(2860%) hue-rotate(238deg)
+    brightness(86%) contrast(101%);
+}
+
+.btn__icon {
+  max-width: 10px;
+  width: 10px;
+  height: 10px;
+  margin-right: 7px;
+}
+
+.icon__bonus {
+  width: 100%;
+  height: auto;
+  display: flex;
+  filter: invert(99%) sepia(0%) saturate(4201%) hue-rotate(157deg)
+    brightness(111%) contrast(101%);
+}

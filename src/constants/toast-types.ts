@@ -1,0 +1,4 @@
+export const TOAST_TYPES = {
+    SUCCESS: 'TOAST_SUCCESS',
+    FAIL: 'TOAST_FAIL'
+}

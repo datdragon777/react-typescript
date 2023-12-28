@@ -1,0 +1,17 @@
+.gender__wrapper {
+  width: fit-content;
+  padding: 7px 14px;
+  border-radius: 33px;
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-sm);
+}
+
+.gender__wrapper--male {
+  background-color: var(--cl-light-male);
+  color: var(--cl-male-txt);
+}
+
+.gender__wrapper--female {
+  background-color: var(--cl-light-female);
+  color: var(--cl-female-txt);
+}

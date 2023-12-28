@@ -1,0 +1,5 @@
+export const SERVICE_TYPES_CUSTOMER = {
+  CREATE: 'POST',
+  UPDATE: 'PUT',
+  DELETE: 'DELETE',
+};

@@ -1,0 +1,26 @@
+.contact-detail {
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--cl-dark-white);
+}
+
+.contact-detail:last-child {
+  border-bottom: none;
+}
+
+.contact-detail__icon {
+  margin-right: 11px;
+  width: 16px;
+  height: 15px;
+}
+
+.icon__info {
+  width: 100%;
+  height: auto;
+}
+
+.contact-detail__info {
+  color: var(--cl-dark-gray);
+  font-size: var(--fs-md);
+  font-weight: var(--fw-md);
+}

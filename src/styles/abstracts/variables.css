@@ -1,0 +1,37 @@
+:root {
+  /* Colors */
+  --cl-primary: #ffffff;
+  --cl-secondary: #06152b;
+  --cl-background: #f1f4fa;
+  --cl-female-txt: #ff69b4;
+  --cl-gray: #99b2c6;
+  --cl-male-txt: #03a89e;
+  --cl-light-female: #fff0f7;
+  --cl-light-male: #e6f6f5;
+  --cl-light-gray: #ccd8e3;
+  --cl-light-blue: #99b2c6;
+  --cl-dark-blue: #3a36db;
+  --cl-dark-gray: #515b6b;
+  --cl-sort: #4d5869;
+  --cl-tag-link: #4d4fd7;
+  --cl-dark-white: #e6e8ea;
+  --cl-success: #5cb85c;
+  --cl-error: #d9534f;
+  --bg-opacity: rgba(0, 0, 0, 0.7);
+
+  /* Font sizes */
+  --fs-xxx-sm: 0.7025rem;
+  --fs-xx-sm: 0.75rem;
+  --fs-x-sm: 0.79rem;
+  --fs-sm: 0.88875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-x-lg: 1.375rem;
+  --fs-xx-lg: 1.42375rem;
+  --fs-xxx-lg: 1.60188rem;
+
+  /* Font weights */
+  --fw-sm: 400;
+  --fw-md: 500;
+  --fw-lg: 700;
+}
